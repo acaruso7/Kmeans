@@ -9,3 +9,6 @@ should increase on every iteration.
 
 The number of model iterations should be selected such that the BCV / WCV ratio reaches convergence (no change on every 
 next iteration).
+
+The output of the model is a list of tuples of the form (point, cluster assignment), where 'point' is an (x,y) pair, and
+'cluster assignment' is a number representing a cluster between 0 and k.
